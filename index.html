@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Campus Life</title>
 </head>
 <body>
-    <section>
-        <nav>
-            <div>
-                <img src="./assets/YC logo.png" alt="YouCode logo">
-            </div>
-            <div>
-            <ul>
+
+    <!-- Navbar -->
+
+    <section class="nav">
+        <div class="logo">
+            <img src="./assets/YC logo.png" alt="YouCode logo">
+        </div>
+        <div>
+            <ul class="nav-buttons">
                 <li><a href="">Accueil</a></li>
                 <li><a href="">Campus</a></li>
                 <li><a href="">Clubs & activites</a></li>
@@ -21,8 +26,84 @@
                 <li><a href="">Conseils aux nouveaux</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
+        </div>
+        <div class="search">
+            <img src="./assets/search.png" alt="search button">
+        </div>
+        <div>
+            <button>Rejoindre <br> l'aventure</button>
+        </div>
+    </section>
+
+    <!-- Hero -->
+
+    <section class="hero">
+        <div class="content">
+            <h1>
+                <span class="campus">CAMPUS </span><br>
+                <span class="life">LIFE </span>
+                <span class="equalish">≈</span>
+            </h1>
+
+            <h2>Vie étudiante à YouCode</h2>
+
+            <p class="p-1">Découvre un environnement d'apprentissage unique,<br> des rencontres inspirantes et une communauté qui code <br>le futur avec toi.</p>
+            
+            <button class="button-1">Découvrir le campus →</button>
+            <button class="button-2">▦ Voir les événements</button>
+            
+            <div class="circle">
+                <span class="A">A</span>
+                <span class="S">S</span>
+                <span class="Y">Y</span>
+                <span class="M">M</span>
             </div>
-        </nav>
+            <div class="comunity">
+                <p>Une communauté <br>de +1000 apprenants</p>
+            </div>
+        </div>
+        <div class="image"><img src="./assets/hero-student.png" alt="a student smiling"></div>
+    </section>
+
+    <!-- key numbers -->
+
+    <section class="numbers">
+        <div class="item">
+            <span class="symbol">◇</span>
+            <div>
+                <span class="digit">+1000</span>
+                <span class="ofWhat">Apprenants</span>
+            </div>
+        </div>
+        <div class="item seperator"></div>
+        <div class="item number">
+            <span class="symbol">♧</span>
+            <div>
+                <span class="digit">+20</span>
+                <span class="ofWhat">Clubs & activités</span>
+            </div>
+        </div>
+        <div class="item seperator"></div>
+        <div class="item number">
+            <span class="symbol">▦</span>
+            <div>
+                <span class="digit">+50</span>
+                <span class="ofWhat">Événements par an</span>
+            </div>
+        </div>
+        <div class="item seperator"></div>
+        <div class="item number">
+            <span class="symbol">▣</span>
+            <div>
+                <span class="digit">90%</span>
+                <span class="ofWhat">Insertion professionnelle</span>
+            </div>
+        </div>
+    </section>
+
+    <!--Show-->
+
+    <section class="show">
         
     </section>
 </body>
