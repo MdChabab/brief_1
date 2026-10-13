@@ -509,7 +509,80 @@ h1 .equalish {
     margin-bottom: 10px;
 } 
 
-.date h4, .date footer {
+.date h4 {
+    color: #0A1222;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.date span {
+    color: #47526A;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.date div {
     padding-left: 15px;
     margin: 0;
 }
+
+/* ------------ testimonials ------------ */
+
+.testimonials {
+    background-color: #F4F7FC;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimony .line {
+    width: 2px;
+    height: 22px;
+    background-color: #034BFF;
+    display: inline-block
+}
+
+.who p {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0A1222;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.who span {
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.testimony .dots {
+    align-self: center;
+    color: #034BFF;
+}
+
+.arrows {
+    color: #0A1222;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows .arrow {
+    padding: 0 10px;
+}
+
+/* -------------- footer -------------- */
+
+
